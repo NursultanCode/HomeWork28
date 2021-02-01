@@ -1,11 +1,13 @@
 import java.util.Random;
 
 public class Operations {
+    //normal day
     public static void normalDay(Dealer dealer){
         dealer.setDistance(dealer.getDistance()-dealer.getSpeed());
         System.out.println("It was normal day!");
         if (dealer.getDistance()>0) System.out.println("We have "+dealer.getDistance()+"\n");
     }
+    //rainy day
     public static void rainyDay(Dealer dealer){
         dealer.setDistance(dealer.getDistance()-(dealer.getSpeed()-2));
         System.out.println("It was rainy day, I moved slow!");
