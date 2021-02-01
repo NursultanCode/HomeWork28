@@ -40,6 +40,7 @@ public class Product {
         this.price = price;
     }
 
+    //products constructor
     public Product(int i) {
         Random random = new Random();
         state = State.NORMAL;
