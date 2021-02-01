@@ -43,6 +43,7 @@ public class Dealer {
         this.money = money;
     }
 
+    //dealer constructor
     public Dealer() {
         products = new ArrayList<>();
         Random r =new Random();
