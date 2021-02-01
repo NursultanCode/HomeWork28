@@ -1,6 +1,7 @@
 import java.util.Random;
 
 public enum Country {
+    //our countries
     BISHKEK,
     TALAS,
     NARYN,
